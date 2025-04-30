@@ -6,8 +6,8 @@
 
 ## 🧠 Funcionalidades
 
-- 🔒 **Ocultar janelas ativas** com `Ctrl+W`
-- 🔓 **Restaurar todas as janelas ocultas** com `Ctrl+Q`
+- 🔒 **Ocultar janelas ativas** com `Ctrl+shift+a`
+- 🔓 **Restaurar todas as janelas ocultas** com `Ctrl+q`
 - 🧼 Botões para ocultar/restaurar manualmente
 - 📋 Interface gráfica feita com `Tkinter`
 - 🔁 Atualização de status em tempo real
@@ -29,8 +29,8 @@ A interface mostra:
 
 | Atalho        | Ação                      |
 |---------------|---------------------------|
-| `Ctrl + W`    | Ocultar a janela ativa    |
-| `Ctrl + Q`    | Restaurar todas as janelas|
+| `Ctrl + shift + a`    | Ocultar a janela ativa    |
+| `Ctrl + q`    | Restaurar todas as janelas|
 
 ---
 
@@ -114,7 +114,6 @@ window-hider/
 
 ## 💡 Créditos
 
-Desenvolvido por [Seu Nome](https://github.com/seuusuario)  
 Inspirado na ideia de esconder janelas com um clique.  
 
 ---
