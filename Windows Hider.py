@@ -42,7 +42,7 @@ class WindowHiderApp:
         self.counter_label.pack(pady=5)
 
         # Instruções (Já estava correto no seu código original)
-        ttk.Label(frame, text="Pressione Ctrl+w para ocultar a janela ativa\n"
+        ttk.Label(frame, text="Pressione Ctrl+Shift+A para ocultar a janela ativa\n"
                              "Pressione Ctrl+q para restaurar todas as janelas",
                  justify=tk.CENTER).pack(pady=10)
 
@@ -64,7 +64,7 @@ class WindowHiderApp:
     def setup_keyboard_listener(self):
         # Definir atalhos diretamente
         hotkeys = {
-            '<ctrl>+w': self.hide_active_window,  # <<<--- ÚNICA ALTERAÇÃO FUNCIONAL AQUI
+            '<ctrl>+<shift>+a': self.hide_active_window,  # <<<--- ÚNICA ALTERAÇÃO FUNCIONAL AQUI
             '<ctrl>+q': self.restore_windows
         }
         try:
