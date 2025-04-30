@@ -1,16 +1,12 @@
-Claro! Aqui está um **README completo e bem estruturado** para o seu projeto "Window Hider", explicando o que ele faz, como usar, instalar, compilar etc.
-
----
-
 #  Window Hider
 
-**Window Hider** é uma aplicação simples com interface gráfica que permite **ocultar e restaurar janelas ativas do Windows** usando atalhos de teclado globais. Ideal para esconder rapidamente uma janela do trabalho ou qualquer outra aplicação da sua tela com um simples `Ctrl+A`.
+**Window Hider** é uma aplicação simples com interface gráfica que permite **ocultar e restaurar janelas ativas do Windows** usando atalhos de teclado globais. Ideal para esconder rapidamente uma janela do trabalho ou qualquer outra aplicação da sua tela com um simples `Ctrl+W`.
 
 ---
 
 ## 🧠 Funcionalidades
 
-- 🔒 **Ocultar janelas ativas** com `Ctrl+A`
+- 🔒 **Ocultar janelas ativas** com `Ctrl+W`
 - 🔓 **Restaurar todas as janelas ocultas** com `Ctrl+Q`
 - 🧼 Botões para ocultar/restaurar manualmente
 - 📋 Interface gráfica feita com `Tkinter`
@@ -25,7 +21,7 @@ A interface mostra:
 - O número de janelas ocultas
 - O status da última ação
 - Instruções rápidas
-- Três botões: *Ocultar*, *Restaurar*, *Sair*
+- Três botões: *Ocultar*, *Restaurar*
 
 ---
 
@@ -33,7 +29,7 @@ A interface mostra:
 
 | Atalho        | Ação                      |
 |---------------|---------------------------|
-| `Ctrl + A`    | Ocultar a janela ativa    |
+| `Ctrl + W`    | Ocultar a janela ativa    |
 | `Ctrl + Q`    | Restaurar todas as janelas|
 
 ---
